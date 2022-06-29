@@ -142,7 +142,6 @@ answerButton.onclick = async () => {
 
   offerCandidates.onSnapshot((snapshot) => {
     snapshot.docChanges().forEach((change) => {
-      console.log(change);
       if (change.type === 'added') {
         let data = change.doc.data();
         pc.addIceCandidate(new RTCIceCandidate(data));
