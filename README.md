@@ -2,7 +2,7 @@
 
 Build a 1-to-1 video chat feature with WebRTC, Firestore, and JavaScript. 
 
-How it works?
+# How it works?
 1. Request access to video and audio permissions from the browser
 2. Create a new global WebRTC connection in the application
 3. Push local stream to WebRTC connection so that any other receivers can access your video stream.
